@@ -163,8 +163,68 @@
     - `<!-- your comment -->`
         - comment
 #### [Markup Validation Service](https://validator.w3.org)
-
 ---
+## lesson 4 Text List Types
+```html
+```
+- list
+    - have indence   
+    - order list
+        ```html
+        <ol>
+            <li> content </li>
+            <li> content </li>
+            <li> content </li>
+        </ol>
+        ```
+        ```result
+        Before content
+            1. content
+            2. content
+            3. content
+        After content
+        ```
+    - unorder list
+        ```html
+        <ul>
+            <li> content </li>
+            <li> content </li>
+            <li> content </li>
+        </ul>
+        ```
+        ```result
+        Before content
+            · content
+            · content
+            · content
+        After content
+        ```
+    - discription list
+        - dt - description term
+        - dd - description detail   
+        ```html
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Moutain Tops</dt>
+            <dd>These are also cold.</dd>
+          </dl>
+        ```
+        ```result
+        North Pole
+            I hear this is cold!
+        South Pole
+            This is also cold.
+        Moutain Tops
+            These are also cold.
+
+        ```
+
+
 
 
 # Reference
