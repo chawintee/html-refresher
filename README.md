@@ -29,26 +29,28 @@
 
     </html>
 ```
-- !DOCTYPE html
+- `<!DOCTYPE html>`
     - declare Type of document 
-- html 
+- `<html> head and body </html>` 
     - tag of html contain open tag and close tag
     - have 2 tag inside
-        - head
-        - body
+        - `<head> metadata </head>`
+        - `<body> content in body </body>`
     - attribute mandatory is lang
-- head
+- `<head> metadata </head>`
     - In have have data call meta data
-    - charset 
+    - `<meta charset="UTF-8" > `
         - is type of charactor
-    - style 
+    - `<style> style you would link in your body </style>`
         - style of page about color, background-color
-- body 
-    - content in your pages
-    - h1
+- `<body> content in body </body>`
+    - content in your web page
+    - `<h1> </h1>`
         - header
-    - p 
+    - `<p> </p>`
         - paragraph
+#### [Markup Validation Service](https://validator.w3.org)
+
 ---
 
 ## lesson 2 Head Element
@@ -72,21 +74,97 @@
 
     </html>
 ```
-- head
-    - meta
+- `<head> metadata </head>`
+    - `<meta ${attribute} >`
         - data in head tag
-    - title
+    - `<title>My First Web Page</title>`
         - content that would like to show in top tab
-    - link
+    - `<link ${attribute} >`
         - link content out file to show in file
-        - rel
+        - `rel`
             - rel is descript what you link
-            - icon 
+            - `icon` 
                 - icon that would like to show in top tab
-            - stylesheet 
+            - `stylesheet`
                 - style that would like to show in body
+
+#### [Markup Validation Service](https://validator.w3.org)
 ---
 
+## lesson 3 Text Basics
+```html
+    <body>
+    <h1>Hello World!</h1>
+
+    <hr>
+
+    <h2>I'm Ready to Learn HTML</h2>
+    <p>This is my first web page.</p>
+
+    <h3>My Daily Schedule</h3>
+    <p>Let me tell you how 
+      <br>&nbsp;&nbsp;&nbsp;...I learn more about web dex.
+      <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule.
+      <br>&nbsp;&nbsp;&nbsp;...I use resources from <abbr title="Mozilla Developer Network">MDN</abbr> .
+    </p>
+
+    <hr>
+
+    <h2>I Am Also Planning a Vacation</h2>
+    <p>I've been working hard and <em> really need a getaway </em>.</p>
+    <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+
+    <h3>Place I'd Like to Visit</h3>
+    <p>I've heard good things about the Caribbean</p>
+    <p>I've heard good thibngs about going here:</p>
+    <address>
+      Margaritaville Island Reserve Riviera Cancun <br>
+      Bahia Perempich Puerto Morelos, Mexigo <br>
+      Colonia Morelos, Mexico 77580
+    </address>
+
+    <!-- TODO: Add more places -->
+    <h3>Place I Want to Avoid</h3>
+    <p>Anywhere hot. <strong> No way! </strong> </p>
+    
+    <hr>
+    &lt;&lt;&lt;&copy; Chawintee &gt;&gt;&gt;
+
+
+  </body>
+```
+
+- `<body> content in body </body>`
+    - `<hr>`
+        - horizontal rule no closing tag
+    - `<br>`
+        - line break
+    - `<em> content would emphasyst </em>`
+        - emphasys
+    - `<strong> content would strong </strong>`
+        - strong meaning bigger and bolder
+    - `&nbsp;`
+        - " "
+        - html whitespace 
+    - `&lt;`
+        - "<"
+        - html lessthan 
+    - `&copy;`
+        - "©"
+        - html copyright icon 
+    - `&gt;`
+        - ">"
+        - html greater than 
+    - `<abbr title="full meaning"> </abbr>`
+        - abbrivision
+        - have title then mouse over is show full meaning
+    - `<address> Input your address </address>`
+        - address
+    - `<!-- your comment -->`
+        - comment
+#### [Markup Validation Service](https://validator.w3.org)
+
+---
 
 
 # Reference
