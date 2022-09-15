@@ -80,7 +80,7 @@
     - `<title>My First Web Page</title>`
         - content that would like to show in top tab
     - `<link ${attribute} >`
-        - link content out file to show in file
+        - link content out file to show in file (resource of webpage)
         - `rel`
             - rel is descript what you link
             - `icon` 
@@ -156,7 +156,7 @@
         - ">"
         - html greater than 
     - `<abbr title="full meaning"> </abbr>`
-        - abbrivision
+        - abbriviation
         - have title then mouse over is show full meaning
     - `<address> Input your address </address>`
         - address
@@ -223,9 +223,47 @@
             These are also cold.
 
         ```
-
-
-
-
+#### [Markup Validation Service](https://validator.w3.org)
+---
+## lesson 5: Add Link
+```html
+```
+- `<a href="Link"> ... </a>` 
+    - anchor tag
+    - `<a href="https://developer.mozilla.org/">MDN</a>`
+        - this href `https://developer.mozilla.org/` call `absolute reference`
+            - In case of link href `html5.png` or `main.css` `call relative reference`
+- `<section id="..."> ... </section>`
+    - section is seperate section.
+- `<nav>  </nav>`
+    - nav is navigation area
+- `<a href="#">Back to Top</a>`
+    - go to top of page
+- `<a href="#Vacation">Back to Top</a>`
+    - go to id "Vacation"
+- Link Text Rule
+    - #1 Avoid printing the full web address to the page.
+    - #2 Avoid "links to" phrase We all know it is a link.
+    - #3 Keep your link text short. Exact topic. Not sentences.
+    - #4 No links that say "click here". It provides no meaning.
+            
+- Download
+    - anchor tag for download `<a href="html5.png" download> HTML5 favicon</a> `
+        - href 
+        - download
+- Mailto
+    - anchor tag for mailto `<a href="mailto:chawintee.kmutt@mail.kmutt.ac.th">`
+        - href
+        - mailto:
+- Dailto
+    - anchor tag for mailto `<a href="tel:+66992761234">`
+        - href
+        - tel:+
+- Open Google in `new tab`
+    - anchor tag for newtab `<a href="https://www.google.com/" target="_blank">Google</a>`
+        - target
+        - target="_blank"
+#### [Markup Validation Service](https://validator.w3.org)
+---
 # Reference
 [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
