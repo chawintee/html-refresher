@@ -226,7 +226,37 @@
 #### [Markup Validation Service](https://validator.w3.org)
 ---
 ## lesson 5: Add Link
+- index.html
 ```html
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Learn HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+      </ul>
+    </nav>
+
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+```
+- about.html
+```html
+    <ul>
+        <li>Download an <a href="html5.png" download> HTML5 favicon</a></li>
+        <li>
+            Contact me at <a href="mailto:chawintee.kmutt@mail.kmutt.ac.th">my email address</a>.
+        </li>
+        <li>
+            Dial <a href="tel:+66992761234">my phone number</a>.
+        </li>
+        <li>
+            Open <a href="https://www.google.com/" target="_blank">Google</a> in a new tab.
+        </li>
+    </ul>
 ```
 - `<a href="Link"> ... </a>` 
     - anchor tag
@@ -265,5 +295,47 @@
         - target="_blank"
 #### [Markup Validation Service](https://validator.w3.org)
 ---
+## lesson 5: Add Images
+```html 
+    <figure>
+        <img src="img/เกาะนาวโอพี13-400x400.jpg" 
+        alt="Caribbean Beach" 
+        title="I want to visit a Caribbean beach." 
+        width="400" height="225" 
+        loading="lazy">
+        <figcaption>
+        Caribbean Beach Getaway.
+        </figcaption>
+    </figure>
+```
+- img tag
+    - no closing tag
+    - html img element tag `<img src="${folder_name/relative_path}" alt= "">`
+    - react must `/` in back of element `<img src="${folder_name/relative_path}" alt= ""/>`
+    - `<img src="${folder_name/relative_path}" alt= "${when image not show user can read }" title="user not see not require" width="${width_of_this_image}" height="${height_of_this_image}" loading="${normal is "eager" automatic can use "lazy" }">`
+        - loading 
+            - eager - loading image when go to webpage
+            - lazy  - loading image when scoll to image
+- figure tag
+    - `<figure> <img src="${folder_name/relative_path}" alt= ""> <figcaption> Caption </figcaption>  </figure>`
+- figcaption tag
+    - `<figcaption> Caption </figcaption>`
+    - caption of image
+- code tag
+    - `<code></code>`
+    - that apply element to the page
+- free images website
+    - [unsplash](https://unsplash.com/)
+    - [pexels](https://www.pexels.com/)
+    - [gratisography](https://gratisography.com/)
+    - [pixabay](https://pixabay.com/)
+    - [irfanview](https://www.irfanview.com/)
+    - [canva](https://www.canva.com/)
+    - [tinypng](https://tinypng.com/)
+#### [Markup Validation Service](https://validator.w3.org)
+---
+
+
+
 # Reference
 [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
