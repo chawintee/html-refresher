@@ -295,7 +295,7 @@
         - target="_blank"
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 5: Add Images
+## lesson 6: Add Images
 ```html 
     <figure>
         <img src="img/เกาะนาวโอพี13-400x400.jpg" 
@@ -318,6 +318,8 @@
             - lazy  - loading image when scoll to image
 - figure tag
     - `<figure> <img src="${folder_name/relative_path}" alt= ""> <figcaption> Caption </figcaption>  </figure>`
+- figure tag
+    - ` <img src="${folder_name/relative_path}" alt= ""> <figure><figcaption> Caption </figcaption>  </figure>`
 - figcaption tag
     - `<figcaption> Caption </figcaption>`
     - caption of image
@@ -334,7 +336,83 @@
     - [tinypng](https://tinypng.com/)
 #### [Markup Validation Service](https://validator.w3.org)
 ---
+## lesson 7: Semantic Tags
+```html
+    <body>
+        <header>
+        
+        </header>
+        <main>
+        
+        </main>
+        <footer>
+    
+        </footer>
+    </body>
+```
+- header element 
+    - `<header></header>`
+- main element
+    - `<main></main>`
+- `aria-label="primary-navigation"`
+```html
+    <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learn HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a Vacation</a>
+          </li>
+        </ul>
+    </nav>
+```
+or
+```html
+    <nav aria-labelledby="primary-navigation">
+        <h2 id="primary-navigation">Primary Navigation</h2>
+        <ul>
+          <li>
+            <a href="#html">Learn HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a Vacation</a>
+          </li>
+        </ul>
+    </nav>
+```
 
+> aside
+```html
+<aside>
+    <details>
+    <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+    <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H"> 3 hours </time> every morning.</p>
+    </details>
+</aside>
+```
+- article
+    - `<article></article>`
+- aside
+    - `<aside></aside>`
+- details
+    - `<details></details>`
+- summary
+    - `<summary></summary>`
+- mark 
+    - `<mark></mark>`
+- time
+    - `<time datetime="08:00">8 am</time>`
+    - time specify time
+    - `<time datetime="PT3H"> 3 hours </time>`
+    - duration
+> no semantic
+- div
+    - `<div></div>`
+    - no meaning 
+    - blog element
+- span
+    - `<span></span>`
 
 
 # Reference

@@ -11,108 +11,129 @@
   </head>
 
   <body>
-    <h1>My Goals for the Year</h1>
+    <header>
+      <h1>My Goals for the Year</h1>
+
+      <nav aria-labelledby="primary-navigation">
+        <h2 id="primary-navigation">Primary Navigation</h2>
+        <ul>
+          <li>
+            <a href="#html">Learn HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a Vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <hr>
+    <main>
+      <article id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is my first web page.</p>
 
-    <nav>
-      <ul>
-        <li>
-          <a href="#html">Learn HTML</a>
-        </li>
-        <li>
-          <a href="#vacation">Planning a Vacation</a>
-        </li>
-      </ul>
-    </nav>
+        <section>
+          <h3>HTML5</h3>
+          <img src="img/HTML5_001.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+          <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how </p>
+            <ol>
+              <li>...I learn more about web dex.</li>
+              <li>...I plan out my schedule.</li>
+              <li>...I use resources from <abbr 
+                title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a>
+              </abbr> .</li>
+            </ol>
 
-    <hr>
-    <section id="html">
-      <h2>I'm Ready to Learn HTML</h2>
-      <p>This is my first web page.</p>
-      <figure>
-        <img src="img/HTML5_001.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
-        <figcaption>An Example of HTML5 code</figcaption>
-        <p>
-          <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
-        </p>
-      </figure>
+            <aside>
+              <details>
+                <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H"> 3 hours </time> every morning.</p>
+              </details>
+            </aside>
+        </section>
+      </article>
 
-      <h3>My Daily Schedule</h3>
-      <p>Let me tell you how </p>
-        <ol>
-          <li>...I learn more about web dex.</li>
-          <li>...I plan out my schedule.</li>
-          <li>...I use resources from <abbr 
-            title="Mozilla Developer Network">
-            <a href="https://developer.mozilla.org/">MDN</a>
-          </abbr> .</li>
-        </ol>
-    </section>
+      <hr>
 
-    <hr>
+      <article id="vacation">
+        <h2>I Am Also Planning a Vacation</h2>
+        <p>I've been working hard and <em> really need a getaway </em>.</p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
 
-    <section id="vacation">
-      <h2>I Am Also Planning a Vacation</h2>
-      <p>I've been working hard and <em> really need a getaway </em>.</p>
-      <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+        <section>
+          <h3>Places I'd Like to Visit</h3>
+          <ul>
+            <li><p>I've heard good things about the Caribbean</p></li>
+            <figure>
+              <img src="img/เกาะนาวโอพี13-400x400.jpg" 
+              alt="Caribbean Beach" 
+              title="I want to visit a Caribbean beach." 
+              width="400" height="225" 
+              loading="lazy">
+              <figcaption>
+                Caribbean Beach Getaway.
+              </figcaption>
+            </figure>
 
-      <h3>Places I'd Like to Visit</h3>
-      <ul>
-        <li><p>I've heard good things about the Caribbean</p></li>
-        <figure>
-          <img src="img/เกาะนาวโอพี13-400x400.jpg" 
-          alt="Caribbean Beach" 
-          title="I want to visit a Caribbean beach." 
-          width="400" height="225" 
-          loading="lazy">
-          <figcaption>
-            Caribbean Beach Getaway.
-          </figcaption>
-        </figure>
+            <li><p>I've heard good thibngs about going here:</p></li>
+            <li>
+            <address>
+              Margaritaville Island Reserve Riviera Cancun <br>
+              Bahia Perempich Puerto Morelos, Mexigo <br>
+              Colonia Morelos, Mexico 77580
+            </address>
+            <figure>
+              <img src="img/เกาะนาวโอพี-nyaungoopheeisland-snokeling10-400x400.jpg" 
+              alt="Cancun Vacation" 
+              title="It's 5 o'Clock Somewhere!" 
+              width="400" height="267"
+              loading="lazy">
+              <figcaption>
+                A Caribbean Vacation Image
+              </figcaption>
+            </figure>
+          </li>
+          </ul>
+        </section>
 
-        <li><p>I've heard good thibngs about going here:</p></li>
-        <li>
-        <address>
-          Margaritaville Island Reserve Riviera Cancun <br>
-          Bahia Perempich Puerto Morelos, Mexigo <br>
-          Colonia Morelos, Mexico 77580
-        </address>
-        <figure>
-          <img src="img/เกาะนาวโอพี-nyaungoopheeisland-snokeling10-400x400.jpg" 
-          alt="Cancun Vacation" 
-          title="It's 5 o'Clock Somewhere!" 
-          width="400" height="267"
-          loading="lazy">
-          <figcaption>
-            A Caribbean Vacation Image
-          </figcaption>
-        </figure>
-      </li>
-      </ul>
+        <!-- TODO: Add more places -->
+        <section>
+          <h3>Places I Want to Avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
 
-      <!-- TODO: Add more places -->
-      <h3>Places I Want to Avoid</h3>
-      <dl>
-        <dt>North Pole</dt>
-        <dd>I hear this is <strong>cold</strong>!</dd>
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
 
-        <dt>South Pole</dt>
-        <dd>This is also cold.</dd>
-
-        <dt>Moutain Tops</dt>
-        <dd>These are also cold.</dd>
-      </dl>
-    </section>
+            <dt>Moutain Tops</dt>
+            <dd>These are also cold.</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
     
-    
     <hr>
-    &lt;&lt;&lt;&copy; <a href="about.html">Chawintee</a>  &gt;&gt;&gt;
 
-    <p>
-      <a href="#">Back to top</a>
-    </p>
-
+    <footer>
+      <p>
+        &lt;&lt;&lt;&copy; <a href="about.html">Chawintee</a>  &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
 
   </body>
 </html>
