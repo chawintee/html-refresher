@@ -685,7 +685,14 @@ or
 #### [Markup Validation Service](https://validator.w3.org)
 ---
 ## lesson 10: HTML Project
-    
+```html
+
+```
+In folder 10_lesson_starter
+
+>Emoji
+- [Emojipedia](https://emojipedia.org/)
+
 
 # Reference
 [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
