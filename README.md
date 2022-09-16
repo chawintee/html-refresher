@@ -384,12 +384,12 @@ or
 
 > aside
 ```html
-<aside>
-    <details>
-    <summary>Guess the <mark>number of hours</mark> I code per day</summary>
-    <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H"> 3 hours </time> every morning.</p>
-    </details>
-</aside>
+    <aside>
+        <details>
+        <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H"> 3 hours </time> every morning.</p>
+        </details>
+    </aside>
 ```
 - article
     - `<article></article>`
@@ -418,6 +418,53 @@ or
 ---
 ## lesson 8: Create Tables 
 ```html
+    <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td>
+                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                <time datetime="12:00">12am</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for other COourses</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and recharge!</td>
+            </tr>
+        </tfoot>
+    </table>
 ``` 
 - table
     - `<table></table>`
@@ -464,5 +511,180 @@ or
 #### [Markup Validation Service](https://validator.w3.org)
 ---
 ## lesson 9: Form & Inputs
+```html
+```
+- form
+    - `<form action="https://httpbin.org/get" method="get"></form>`
+- lable
+    - `<label for="firstname"></label>`
+    - leble have to in form 
+- input
+    - ```html
+        <input 
+        type="text" 
+        name="firstName" 
+        id="firstName" 
+        placeholder="Jane" 
+        autocomplete="on" 
+        required 
+        autofocus
+        >
+      ```
+    - input:text
+    - attribute
+        - type
+            - text
+                - ```html
+                    <input 
+                    type="text" 
+                    name="firstName" 
+                    id="firstName" 
+                    placeholder="Jane" 
+                    autocomplete="on" 
+                    required 
+                    autofocus
+                    >
+                  ```
+            - tel
+                - ```html
+                    <input 
+                    type="tel" 
+                    name="phone" 
+                    id="phone" 
+                    placeholder="5555555555" 
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}" 
+                    required
+                    >
+                  ```
+            - number
+                - min
+                - max
+                - step
+                - value
+                - ```html
+                    <input 
+                    type="number" 
+                    name="decade" 
+                    id="decade" 
+                    placeholder="5555555555" 
+                    min="1950" 
+                    max="2020" 
+                    step="10" 
+                    value="1980" 
+                    >
+                  ```
+            - radio 
+                - ```html 
+                    <fieldset>
+                        <legend>Waht is your favorite food?</legend>
+                        <p>
+                            <input type="radio" name="food" id="tacos" value="tacos">
+                            <label for="tacos">Tacos</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="food" id="pizza" value="pizza">
+                            <label for="pizza">Pizza</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="food" id="other" value="other">
+                            <label for="other">Other</label>
+                        </p>
+                    </fieldset>
+                  ```
+            - checkbox
+                - ```html
+                    <fieldset>
+                        <legend>Do you have pets?</legend>
+                        <p>
+                            <input type="checkbox" name="pets" id="dog" value="dog">
+                            <label for="dog">Dog</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="cat" value="cat">
+                            <label for="cat">Cat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="fish" value="fish">
+                            <label for="fish">Fish</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                            <label for="otherPet">Other</label>
+                        </p>
+                    </fieldset>
+                  ```
+        - name
+        - id
+        - placeholder - display text not same as value , holding in a place what user put in.
+        - autocomplete - yes no true of flast on off 
+        - required - must have information from user in form before user summited
+        - autofocus - focus input when page load
+        - value
+- `select` & `option` & `optgroup`
+    - ```html
+        <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="iced coffee">Ice Coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+                <option value="latte" selected>Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+                <option value="other">Other</option>
+            </optgroup>
+        </select>
+      ```
+    - attribute
+        - value
+        - selected
+        - multiple size - size of select
+    
+    - another way input for select
+        - ```html
+            <input type="text" name="coffee" id="coffee" list="coffee-list">
+            <datalist id="coffee-list">
+              <option value="coffee">
+              <option value="latte">
+              <option value="espresso">
+              <option value="cortado">
+              <option value="americano">
+              <option value="other">
+            </datalist>
+          ```
+- fieldset
+    - `<fieldset></fieldset>`
+    - square of form data
+- legend
+    - `<legend></legend>`
+    - a lot like caption
+        - ```html
+            <fieldset>
+            <legend>Send Me A Note</legend>
+            </fieldset>
+          ```
+- text area
+    - ```html
+        <fieldset>
+            <legend>Send Me A Note</legend>
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+        </fieldset>
+      ```
+- button
+    - ```html
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+      ```
+    - type 
+        - submit
+        - reset
+#### [Markup Validation Service](https://validator.w3.org)
+---
+## lesson 10: HTML Project
+
 # Reference
 [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
