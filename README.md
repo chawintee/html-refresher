@@ -401,6 +401,7 @@ or
     - `<summary></summary>`
 - mark 
     - `<mark></mark>`
+    - hightlight
 - time
     - `<time datetime="08:00">8 am</time>`
     - time specify time
@@ -413,7 +414,55 @@ or
     - blog element
 - span
     - `<span></span>`
+#### [Markup Validation Service](https://validator.w3.org)
+---
+## lesson 8: Create Tables 
+```html
+``` 
+- table
+    - `<table></table>`
+- table row
+    - `<tr></tr>`
+- table data
+    - `<td></td>` 
+- table header
+    - `<th></th>`
 
+- caption
+    - `<caption></caption>`
+    - descript table about
+- table head
+    - `<thead></thead>`
+    - samantic to table
+- table body
+    - `<tbody></tbody>`
+    - samantic to table
+- table foot 
+    - `<tfoot></tfoot>`
+    - samantic to 
+>attribute
+- colspan attribute
+    - `<td colspan="2">Free Time</td>`
+    - like merge collumn
+- rowspan attribute
+    - ```html
+        <tr>
+            <td rowspan="2">All Other Times</td>
+            <td>Free Time</td>
+        </tr>
+        <tr>
+            <td>Sleep</td>
+        </tr>
+        ```
+    - like merge row
+- scope attribute
+    - `<th scope="col">Time</th>`
+    - scope column
+    - `<th scope="row">Morning</th>`
+    - scope row
 
+#### [Markup Validation Service](https://validator.w3.org)
+---
+## lesson 9: Form & Inputs
 # Reference
 [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
