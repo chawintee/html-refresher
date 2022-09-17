@@ -1,10 +1,16 @@
-# html
+# HTML
 - purpose 
     - To review all about HTML 
     - conclude in my understand
     - my english is poor.
 ---
-## lesson 1 Start Here
+## YOUTUBE HTML Dave Gray 
+> [HTML Full Course for Beginners By Dave Gray](https://www.youtube.com/watch?v=mJgBOIoGihA&t=61s)
+---
+## MDN Reference
+> [HTML MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+---
+## Lesson 1 Start Here
 ```html
     <!DOCTYPE html>
     <html lang="en">
@@ -53,7 +59,7 @@
 
 ---
 
-## lesson 2 Head Element
+## Lesson 2 Head Element
 ```html
     <!DOCTYPE html>
     <html lang="en">
@@ -91,7 +97,7 @@
 #### [Markup Validation Service](https://validator.w3.org)
 ---
 
-## lesson 3 Text Basics
+## Lesson 3 Text Basics
 ```html
     <body>
     <h1>Hello World!</h1>
@@ -164,7 +170,7 @@
         - comment
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 4 Text List Types
+## Lesson 4 Text List Types
 ```html
 ```
 - list
@@ -225,7 +231,7 @@
         ```
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 5: Add Link
+## Lesson 5: Add Link
 - index.html
 ```html
     <nav>
@@ -295,7 +301,7 @@
         - target="_blank"
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 6: Add Images
+## Lesson 6: Add Images
 ```html 
     <figure>
         <img src="img/เกาะนาวโอพี13-400x400.jpg" 
@@ -336,7 +342,7 @@
     - [tinypng](https://tinypng.com/)
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 7: Semantic Tags
+## Lesson 7: Semantic Tags
 ```html
     <body>
         <header>
@@ -416,7 +422,7 @@ or
     - `<span></span>`
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 8: Create Tables 
+## Lesson 8: Create Tables 
 ```html
     <table>
         <caption>My Daily Schedule</caption>
@@ -510,7 +516,7 @@ or
 
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 9: Form & Inputs
+## Lesson 9: Form & Inputs
 ```html
 ```
 - form
@@ -684,7 +690,7 @@ or
         - reset
 #### [Markup Validation Service](https://validator.w3.org)
 ---
-## lesson 10: HTML Project
+## Lesson 10: HTML Project
 ```html
 
 ```
